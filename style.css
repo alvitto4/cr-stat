@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');  
+
+body {
+    font-family: "Permanent Marker", cursive !important;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+.carousel-item img {width: 1000%; height: 700px;}
+.carousel-item video {width: 100%; height: 200px;}
+
+.additional-text {
+  float: right; /* Membuat teks tambahan berada di sebelah kanan */
+  /* Anda juga dapat menambahkan gaya CSS tambahan seperti ukuran font, warna, dll. */
+}
+.container-fluid {
+  display: flex; /* Atur tata letak kontainer menjadi flex */
+  flex-wrap: wrap; /* Mengatur flex items untuk meluncur ke baris baru jika tidak cukup ruang */
+  justify-content: space-between; /* Menyejajarkan elemen secara horizontal dengan ruang di antara */
+}
+
+.card {
+  width: 18rem; /* Atur lebar kartu sesuai kebutuhan */
+  margin-bottom: 20px; /* Atur margin bawah antara kartu */
+}
+
+
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 25%; /* Setiap gambar mengambil 25% lebar div */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan proporsi */
+}
